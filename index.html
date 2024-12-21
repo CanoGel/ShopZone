@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow">
+    
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">ShopZone</h1>
+            <nav class="space-x-4">
+                <a href="#" class="text-gray-700 hover:text-blue-500">Home</a>
+                <a href="#products" class="text-gray-700 hover:text-blue-500">Products</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-500">About Us</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-extrabold">Discover Your Style</h2>
+            <p class="mt-4 text-lg">Shop the latest trends and enjoy unbeatable deals!</p>
+            <a href="#products" class="mt-6 inline-block bg-white text-blue-600 font-bold px-6 py-3 rounded shadow hover:bg-gray-100">Start Shopping</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">Featured Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Item -->
+                <div class="bg-white shadow rounded-lg overflow-hidden">
+                    <img src="Shoes.jpeg" alt="Product Image" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Stylish Sneakers</h3>
+                        <p class="text-gray-600 mt-2">$59.99</p>
+                        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="bg-white shadow rounded-lg overflow-hidden">
+                    <img src="Watch.jpeg" alt="Product Image" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Elegant Watch</h3>
+                        <p class="text-gray-600 mt-2">$89.99</p>
+                        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="bg-white shadow rounded-lg overflow-hidden">
+                    <img src="Bag.jpeg" alt="Product Image" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Casual Backpack</h3>
+                        <p class="text-gray-600 mt-2">$39.99</p>
+                        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
